@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Quotes Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A clean, lightweight React app that displays random inspirational quotes at the click of a button — built to practice React fundamentals like component structure, state management, and event handling.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Status](https://img.shields.io/badge/status-complete-success)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A single-page React application that generates random quotes. Simple in scope, intentional in execution — the focus was on writing clean component logic, managing state effectively, and styling a polished UI from scratch.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Built as part of my full-stack web development bootcamp (MERN program) to solidify core React concepts before moving on to larger applications.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Random quote generation** — displays a new quote on each button click
+- **Clean, responsive UI** — styled with custom CSS for a minimal look
+- **Component-based architecture** — built with reusable React components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React** (Create React App)
+- **JavaScript** (ES6+)
+- **HTML5 / CSS3**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Quotes-Generator/
+├── public/           # Static assets and index.html
+├── src/              # React components, styles, and app logic
+├── package.json
+└── .gitignore
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/) v16 or higher
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+```bash
+git clone https://github.com/Mohamed-G-Omer/Quotes-Generator.git
+cd Quotes-Generator
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app opens at **http://localhost:3000**.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Scripts
 
-### Making a Progressive Web App
+| Command           | Description                              |
+| ----------------- | ---------------------------------------- |
+| `npm start`       | Run the app in development mode          |
+| `npm run build`   | Build for production to the `build/` folder |
+| `npm test`        | Launch the test runner                   |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Structuring a React app with **functional components**
+- Managing dynamic content with **React state** (`useState`)
+- Handling user interactions with **event handlers**
+- Styling components with **custom CSS** without a UI framework
+- Working with the **Create React App** toolchain
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+**Mohamed Gamal Omer**
 
-### This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-omer-b57a84b6)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Mohamed-G-Omer)
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
